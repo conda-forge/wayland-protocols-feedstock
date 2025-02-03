@@ -13,9 +13,11 @@ build:
   noarch: generic
 
 requirements:
-  host:
+  build:
     - meson
     - ninja
+    - pkg-config
+  host:
     - wayland
 
 test:
