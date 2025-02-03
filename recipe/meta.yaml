@@ -16,7 +16,6 @@ requirements:
   host:
     - meson
     - ninja
-  run:
     - wayland
 
 test:
