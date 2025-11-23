@@ -1,4 +1,4 @@
-{% set version = "1.45" %}
+{% set version = "1.46" %}
 
 package:
   name: wayland-protocols
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://gitlab.freedesktop.org/wayland/wayland-protocols/-/archive/{{ version }}/wayland-protocols-{{ version }}.tar.bz2
-  sha256: b73315c26d6c3374c19c2dff7e491f019d8597dc4dcd4473d9181f676f15f48f
+  sha256: 6677e1ca64479d1e44b7268af98602ae0fb7c1cd48be5cab677eab1d4f3f9c0b
 
 build:
   number: 0
