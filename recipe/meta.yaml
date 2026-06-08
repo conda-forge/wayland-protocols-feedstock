@@ -2,7 +2,7 @@
 
 package:
   name: wayland-protocols
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://gitlab.freedesktop.org/wayland/wayland-protocols/-/archive/{{ version }}/wayland-protocols-{{ version }}.tar.bz2
